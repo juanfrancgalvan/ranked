@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  margin: 0 0 50px 0;
+  background-color: #ffffff;
+  box-shadow: 0 3px 13px 1px rgba(122, 122, 122, 0.09);
+  border-radius: 2rem;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.content:hover {
+  transform: scale(1.02);
+}
+
+.content img {
+  border-radius: 10px;
+}
+
+.content-info {
+  text-align: start;
+  padding: 0 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+.album {
+  font-size: 1.3rem;
+}
+
+.artist {
+  font-size: 1.2rem;
+  margin: 20px 0 20px 0;
+}
+
+.description {
+  line-height: 1.5;
+}
